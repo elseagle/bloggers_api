@@ -14,7 +14,7 @@ from django.core.wsgi import get_wsgi_application
 #sys.path.insert(0, os.path.abspath(os.path.dirname(__file__)))
 application = get_wsgi_application()
 application = DjangoWhiteNoise(application)
-os.environ['DJANGO_SETTINGS_MODULE'] = 'bloggers_projects.bloggers_project.settings'
+os.environ['DJANGO_SETTINGS_MODULE'] = 'bloggers_projects.bloggers_projects.settings'
 os.environ.setdefault("DJANGO_SETTINGS_MODULE", "bloggers_project.settings")
 
 

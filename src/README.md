@@ -29,4 +29,4 @@ This can be achieved via these endpoints and requests:
     * Edit their blog PUT bloggers-api/herokuapp.com/api/feed/id/  {"id", "status_text": ""}
     * Delete their own blog DELETE bloggers-api/herokuapp.com/api/feed/id
     * List other blogger's GET blog bloggers-api/herokuapp.com/api/feed
-    * Search for bloggers by name or email bloggers-api/herokuapp.com/api/
+    * Search for bloggers by name or email bloggers-api/herokuapp.com/api/?search=< keyword>

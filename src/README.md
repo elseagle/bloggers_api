@@ -3,6 +3,7 @@
 
 This is an CRUD API for bloggers, which means bloggers can:
 
+
 * Create a profile: 
 * Edit their profile
 * Delete their profile

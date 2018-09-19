@@ -83,7 +83,7 @@ WSGI_APPLICATION = 'bloggers_project.wsgi.application'
 
 DATABASES = {}
 DATABASES['default'] = dj_database_url.config(conn_max_age=600)
-DATABASE_URL=sqlite:///db.sqlite3
+DATABASE_URL= "sqlite:///db.sqlite3"
 
 
 # Password validation

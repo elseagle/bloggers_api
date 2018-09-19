@@ -46,7 +46,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'rest_framework',
     'rest_framework.authtoken',
-    'bloggers_api',
+    'src.bloggers_project.bloggers_api',
 ]
 
 MIDDLEWARE = [

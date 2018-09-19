@@ -1,5 +1,5 @@
 # Blogger's API
-*bloggers-api.herokuapp.com* 
+*bloggers-api.herokuapp.com/api/* 
 
 This is an CRUD API for bloggers, which means bloggers can:
 
